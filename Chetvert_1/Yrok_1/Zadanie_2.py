@@ -29,18 +29,18 @@
 # Подумайте как лаконично реализовать проход только по нечетным числам.
 
 number = 0
-n = int(input('Введите число: '))
-h = 0
+number_n = int(input('Введите число: '))
+number_h = 0
 
-while number <= n:
+while number <= number_n:
     if number % 2 != 0:
-        k = 0
-        r = number ** 3
-        m = r
-        while r > 0:
-            k = k + (r % 10)
-            r = r // 10
-        if ((k / 7) % 1) == 0:
-            h = h + number
-            print(str(number) + ' ^3: ' + str(m) + ' sum: ' + str(h) + ' [ ' + str(k) + ' ]')
+        number_k = 0
+        number_r = number ** 3
+        number_m = number_r
+        while number_r > 0:
+            number_k = number_k + (number_r % 10)
+            number_r = number_r // 10
+        if (number_k % 7) == 0:
+            number_h = number_h + number
+            print(str(number) + ' ^3: ' + str(number_m) + ' sum: ' + str(number_h) + ' [ ' + str(number_k) + ' ]')
     number += 1
