@@ -21,20 +21,4 @@
 #           'В': ['Василий Суриков'],
 #           'И': ['Иван Сергеев', 'Инна Серова']}}
 
-def thesaurus(imia_n):
-    baza_imen = {}
-    spisok_sot = imia_n.split(' ')
-    for spisok_so in spisok_sot:
-        srez_n = spisok_so.upper()[0]
-        srez_k = f'{srez_n}{spisok_so[1:]}'
-        if baza_imen.get(srez_n) != None:
-            srez_nk = baza_imen.setdefault(srez_n, srez_k)
-            baza_imen[srez_n] = f'{srez_nk} {srez_k}'
-        else:
-            baza_imen[srez_n] = srez_k
-    for baza_im in baza_imen.keys():
-        baza_imen[baza_im] = baza_imen[baza_im].split()
-    print(baza_imen)
 
-imia_n = input('Введите имена сотрудников через пробел: ')
-thesaurus(imia_n)
