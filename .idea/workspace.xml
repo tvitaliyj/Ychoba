@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6e526bc5-c3c3-48be-9582-fdc4c75d29c6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chetvert_1/Yrok_3/Zadanie_1_3_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chetvert_1/Yrok_3/Zadanie_1_3_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chetvert_1/Yrok_4/Zadanie_1_4_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chetvert_1/Yrok_4/Zadanie_1_4_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chetvert_1/Yrok_4/Zadanie_1_4_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chetvert_1/Yrok_4/Zadanie_1_4_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="D:/Ychoba/Chetvert_1/Yrok_4/Zadanie_1_4_4.py" />
+    <property name="last_opened_file_path" value="D:/Ychoba/Chetvert_1/Yrok_4/Zadanie_1_4_2.py" />
   </component>
   <component name="RunManager" selected="Python.Zadanie_1_4_4">
     <configuration name="Zadanie_1_3_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
