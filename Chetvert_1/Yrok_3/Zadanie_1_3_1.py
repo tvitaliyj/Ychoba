@@ -18,7 +18,8 @@ def num_translate(number_per):
     for my_perevo in my_perevod.keys():
         if my_perevo == number_per:
             print(my_perevod[number_per])
-    if my_perevod.get(number_per) == None:
+            break
+    if my_perevod.get(number_per) is None:
         print('None')
 
 number_per = input('Введите число на английском языке от 0 до 10: ')

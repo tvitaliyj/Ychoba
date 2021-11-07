@@ -11,3 +11,10 @@
 # Примечание:
 # Обратите внимание, что название создаваемого модуля совпадает с названием импортируемого из requests.
 # Это не вызовет конфликтов.
+
+from Zadanie_1_4_2 import obmenik_valyt
+
+url = 'http://www.cbr.ru/scripts/XML_daily.asp'
+val = 'USd'
+
+print(obmenik_valyt(url, val))
