@@ -1,0 +1,9 @@
+Визуализаторы:
+https://regex101.com/
+https://www.regextester.com/
+https://regexr.com/
+https://pythex.org/
+
+Диаграммы:
+https://regexper.com/
+https://www.debuggex.com/
